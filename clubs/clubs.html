@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Clubs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid" style="background: url(sportbg.jpg); background-repeat: no-repeat; height:600px; background-size: cover;">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="index.html"><img src="logo.png" style="width:120px; height: 60px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="nav1">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item "><a href="hom1.php" class="nav-link" style="color: #FFFFFF;"><i class="fas fa-home"></i>HOME</a></li>
+                <li class="nav-item "><a href="hom1.php" class="nav-link" style="color: #FFFFFF;"><i class="fas fa-home"></i>CLUBS</a></li>
+                  <li cla="nav-item"><a href="about.php" class="nav-link" style="color: #FFFFFF;"><i class="fas fa-user"></i>ABOUT</a></li>
+
+
+              <li class="nav-item"><a href="news.php" class="nav-link" style="color: #FFFFFF;"><i class="fas fa-sign-out-alt"></i>LOGOUT</a></li>
+
+              </ul>
+
+           </div>
+        </nav>
+      </div>
+    <div class="container">
+
+
+
+        <h1 class="display-3 text-center">Clubs</h1>
+        <div class="text-center">
+          <button type="button" name="button" onclick="myIt()" class="btn btn-success" style="background:white; color:black;">IT</button>
+          <button type="button" name="button" onclick="myPhoto()" class="btn btn-success" style="background:white; color:black;">Photography</button>
+          <button type="button" name="button" onclick="myArt()" class="btn btn-success" style="background:white; color:black;">Art</button>
+          <button type="button" name="button" onclick="mySport()" class="btn btn-success" style="background:white; color:black;">Sports</button>
+        </div>
+        <hr>
+          <div class="row" id="it">
+            <h1 class="display-4">IT(club Activity)</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UEnZRNtVH3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="row"id="photo">
+            <h1 class="display-4">Photography</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FA3ETgH3BMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+          <div class="row" id="art">
+            <h1 class="display-4">Art</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Oz0-fPhuSaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="row" id="sport">
+            <h1 class="display-4">Sports</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aO9qvBIfgec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+
+    </div>
+    <script>
+    $(document).ready(function() {
+    $("#photo").hide();
+    $("#art").hide();
+    $("#sport").hide();
+    });
+
+
+    var x = document.getElementById("it");
+    var y = document.getElementById("photo");
+    var z = document.getElementById("art");
+    var a = document.getElementById("sport");
+    function myIt() {
+
+      x.style.display="block";
+      y.style.display="none";
+      z.style.display="none";
+      a.style.display="none";
+    }
+    function myPhoto() {
+
+      x.style.display="none";
+      y.style.display="block";
+      z.style.display="none";
+      a.style.display="none";
+    }
+    function myArt() {
+
+      x.style.display="none";
+      y.style.display="none";
+      z.style.display="block";
+      a.style.display="none";
+    }
+    function mySport() {
+
+      x.style.display="none";
+      y.style.display="none";
+      z.style.display="none";
+      a.style.display="block";
+    }
+    </script>
+  </body>
+</html>

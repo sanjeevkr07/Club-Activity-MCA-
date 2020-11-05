@@ -1,0 +1,335 @@
+.jumbotron{
+	background: transparent;
+
+}
+
+
+.navbar-light{
+	background-color: transparent;
+}
+ body {
+        font-family: 'Signika', sans-serif;
+     }
+     .bg-grey {
+        background: #292929;
+     }
+     .logo-footer {
+        margin-bottom: 40px;
+     }
+     footer {
+            color: grey;
+     }
+     footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+     .btn-footer {
+                 color: grey;
+              
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 13px;
+                padding: 7px 30px;
+                line-height: 47px;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+ .form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+    
+}
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+    }
+    .content {
+        position: fixed;
+        top:20%;
+        bottom: 30%;
+       
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+      body {
+        position: relative;
+        height: 100%;
+      }
+      .carousel-container{
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      /*<!-- Carousel -->*/
+
+      .carousel-inner {
+        height: fit-content;
+      }
+      /*<!-- Carousel Text -->*/
+      .carousel-caption{
+        position:absolute;
+        top:20%;
+        left:10%;
+
+        transform: translate(-50%,-50%);
+        z-index: 100;
+        
+      }
+      .jumbotron{
+        background:transparent;
+        
+        margin-top: 1px;
+      }
+
+      .nv{
+        font-size: 20px;
+        margin-right:10px;
+        font-family: 'Kanit', sans-serif;
+      }
+      .nv:hover{
+        color:white; 
+        background-color:#F06B0A;
+        border-radius: 25px;
+        border-style: 1px solid blue;         
+
+      }
+      .center{
+        position:absolute;
+        top:70%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+        z-index: 100;
+      }
+      
+      .cimg{
+          height: 350px;
+          width: 400px;
+          border-style: double; ;
+          border-color: black;
+           transition: all 1.0s ease;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border-radius:5px;
+           margin:auto;
+          
+         }
+         .cimg:hover{
+             transition: all 0.5s ease;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              -webkit-box-shadow: 0px 0px 30px 0px rgba(46, 49, 49, 1);
+              -moz-box-shadow:    0px 0px 30px 0px rgba(46, 49, 49, 1);
+              box-shadow:         0px 0px 30px 0px rgba(46, 49, 49, 1);
+              background-color:blue;
+      
+      }
+      .card:hover{
+             transition: all 0.5s ease;
+              -webkit border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px;
+              -webkit-box-shadow: 0px 0px 30px 0px rgba(46, 49, 49, 1);
+              -moz-box-shadow:    0px 0px 30px 0px rgba(46, 49, 49, 1);
+              box-shadow:         0px 0px 30px 0px rgba(46, 49, 49, 1);
+              background-color:#00a3cc;
+              color:white;
+      
+      }
+      .card:last-of-type:hover{
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(46, 49, 49, 1);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(46, 49, 49, 1);
+    box-shadow:         0px 0px 30px 0px rgba(46, 49, 49, 1);
+} 
+       
+      
+
+
+      .tra{
+        transition: 750ms;
+        background-color: transparent;
+      }
+      .scroll{
+        background-color:  #1e1e2f;
+      }
+
+
+
+      .top{
+        position:absolute;
+        top:32%;
+        left: 22%;
+      }
+      .bcolor{
+        background-color: #1e1e2f;
+        color: white;
+      }
+      
+      .ceo{
+        position: absolute;
+      top: 60px;
+      left: 80px;
+      border-radius: 250px;
+      }
+      .jumbotron1 {
+          width: 100%;
+          overflow: hidden;
+          margin-left: 400px;
+          max-width: 500px
+        }
+
+        .carousel-caption p {
+          animation: 2s slide-right;
+          animation-delay: 2s;
+        }
+
+        @keyframes slide-right {
+          from {
+            margin-left: -100%;
+          }
+
+          to {
+            margin-left: 0%;
+          }
+        }
+        .carousel-caption h1 {
+          animation: 2s slide-left;
+          animation-delay: 2s;
+        }
+
+        @keyframes slide-left {
+          from {
+            margin-right:-500px;
+          }
+
+          to {
+            margin-left: 0%;
+          }
+          .jumbotron{
+  background: transparent;
+
+}
+
+
+.navbar-light{
+  background-color: transparent;
+}
+
+.col-md-5{
+  height:300px;
+  
+   background-color:  #F5B041;
+   margin:10px 10px 10px 10px;
+}
+
+
+.an{
+    width: 100%;
+    height: 100%;
+   
+    text-align: center;
+    display: table;
+    -moz-box-sizing: border-box;
+    
+}
+
+
+
+.ans {
+    vertical-align: middle;
+    text-align: center;
+      display: table-cell; 
+      font-size: 35px;
+      color: #212F3D;
+      font-family: Times;
+}
+
+.col-md-5:hover{
+  background-color: white;
+}
+.r{
+  background-color: #00e6e6;
+  height: 620px;
+  margin:10px 10px 10px 10px;
+
+}
+
+.ani{
+  
+  vertical-align: middle;
+    text-align: center;
+      display: table-cell; 
+      font-size: 25px;
+      color: #212F3D;
+      font-family: Times;
+
+}
+
+
+
+
+
+            
